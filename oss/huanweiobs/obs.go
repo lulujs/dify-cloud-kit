@@ -133,7 +133,7 @@ func (h *HuaweiOBSStorage) List(prefix string) ([]oss.OSSPath, error) {
 			continue
 		}
 		paths = append(paths, oss.OSSPath{
-			Path: v.Key,
+			Path: key,
 			IsDir: func() bool {
 				return strings.HasSuffix(v.Key, "/")
 			}(),
