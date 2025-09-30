@@ -1,4 +1,4 @@
-module github.com/langgenius/dify-cloud-kit
+module github.com/lulujs/dify-cloud-kit
 
 go 1.23.0
 
