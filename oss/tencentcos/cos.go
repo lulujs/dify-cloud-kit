@@ -33,17 +33,15 @@ func NewTencentCOSStorage(args oss.OSSArgs) (oss.OSS, error) {
 	region := args.TencentCOS.Region
 	secretID := args.TencentCOS.SecretID
 	secretKey := args.TencentCOS.SecretKey
-	
+
 	var u *url.URL
-	var err error
-	
 	// 优先使用自定义Endpoint
 	if args.TencentCOS.Endpoint != "" {
 		u, err = url.Parse(args.TencentCOS.Endpoint)
 	} else {
 		u, err = url.Parse("https://" + bucket + ".cos." + region + ".myqcloud.com")
 	}
-	
+
 	if err != nil {
 		return nil, oss.ErrProviderInit.WithError(err).WithDetail("url parse failed")
 	}
