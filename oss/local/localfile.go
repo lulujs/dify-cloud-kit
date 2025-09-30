@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss"
 )
 
 type LocalStorage struct {

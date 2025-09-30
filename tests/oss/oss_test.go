@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/langgenius/dify-cloud-kit/oss"
-	"github.com/langgenius/dify-cloud-kit/oss/factory"
+	"github.com/lulujs/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss/factory"
 	"github.com/stretchr/testify/assert"
 )
 

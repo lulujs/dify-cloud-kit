@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss"
 )
 
 type AzureBlobStorage struct {

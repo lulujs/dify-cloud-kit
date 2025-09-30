@@ -9,7 +9,7 @@ import (
 	"math/rand"
 
 	"github.com/huaweicloud/huaweicloud-sdk-go-obs/obs"
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss"
 )
 
 type HuaweiOBSStorage struct {

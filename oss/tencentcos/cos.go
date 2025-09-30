@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss"
 	"github.com/tencentyun/cos-go-sdk-v5"
 )
 

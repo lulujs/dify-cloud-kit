@@ -3,7 +3,7 @@ package volcenginetos
 import (
 	"bytes"
 	"context"
-	"github.com/langgenius/dify-cloud-kit/oss"
+	"github.com/lulujs/dify-cloud-kit/oss"
 	"github.com/volcengine/ve-tos-golang-sdk/v2/tos"
 	"io"
 	"strings"
